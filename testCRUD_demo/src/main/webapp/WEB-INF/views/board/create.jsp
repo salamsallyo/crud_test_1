@@ -20,9 +20,27 @@
 		<h2>Create Board form</h2>
 		<form action="/board/create" method="post">
 			<div class="form-group">
-				
+				<label for="form">Writer</label>
+				<input type="TEXT" class="form-control" id="writer" placeholder="Enter-Writer" name="b_writer"/>
 			</div>
+			<div class="form-group">
+				<label for="form">Title</label>
+				<input type="TEXT" class="form-control" id="writer" placeholder="Enter-Title" name="b_title"/>
+			</div>
+			<div class="form-group">
+				<label for="form">contents:</label>
+				<textarea rows="20" cols="100" id="contents"
+					placeholder="Enter contents" name="b_contents"></textarea>
+			</div>
+			<div class="form-group form-check">
+				<label for="form-check-label">
+					<input class="form-check-input" type="checkbox" name="remember">
+					Remember me
+				</label>
+			</div>
+			<button type="submit" class="btn btn-primary">Submit</button>
 		</form>
+			<a href="/board"><button type="button" class="btn btn-info">Move to list</button></a>
 	</div>
 </body>
 </html>
