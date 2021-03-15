@@ -25,7 +25,7 @@
 		<div>
 			<a href="/board/create"><button type="button" class="btn btn-primary">Create</button></a>
 		</div>
-		<table>
+		<table class="table table-striped">
 			<thead>
 				<tr>
 					<th>Number</th>
